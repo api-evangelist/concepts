@@ -1,7 +1,15 @@
 aid: concepts
 name: Concepts
-description: Concepts is a company surfaced as a portfolio company of 500-global and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Concepts is a digital sketching and design application built by TopHatch, Inc.,
+  offering an infinite, flexible canvas for thinking, planning, illustration, and
+  design across iOS, Android, and Windows. It blends vector and raster drawing with
+  precision tools, adjustable brushes, layers, and a dynamic tool wheel aimed at
+  designers, illustrators, architects, and product teams. Concepts was surfaced as a
+  portfolio company of 500 Global and added to the API Evangelist network. As a
+  consumer creative application it publishes no public developer API, OpenAPI, SDKs,
+  or agent surface at this time; this profile captures its identity and public web
+  properties along with a domain-security probe.
 url: https://raw.githubusercontent.com/api-evangelist/concepts/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,11 +17,29 @@ x-backed-by:
 - 500-global
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
+image: https://cdn.tophatch.com/img/social/concepts_moodboard.jpg
 tags:
 - Company
+- Design
+- Sketching
+- Illustration
+- Creative Tools
+- Productivity
+- Vector Graphics
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +47,24 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/concepts-domain-security.yml
 - type: Website
   url: https://concepts.app
+- type: Documentation
+  url: https://concepts.app/manual
+- type: Support
+  url: https://concepts.app/en/ios/support
+- type: HelpCenter
+  url: https://concepts.app/en/faq
+- type: Pricing
+  url: https://concepts.app/#pricing
+- type: TermsOfService
+  url: https://concepts.app/termsofservice
+- type: PrivacyPolicy
+  url: https://concepts.app/privacy
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
